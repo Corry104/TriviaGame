@@ -1,0 +1,59 @@
+/**
+ * Float Layout Activity
+ **/
+  
+ * {
+    position: relative;
+    overflow: auto;
+ }
+
+ body {
+    background-image: url("../images/TriviaBackground\ Image.png");
+    background-size: 100%;
+ }
+
+ .jumbotron {
+    text-align: center;
+    background: none;
+    color: white;
+    font-family: 'Romanesco', 'cursive';
+    height: 240px;
+ }
+
+ h1 {
+    font-size: 5em;
+ }
+
+#start {
+      width: 4em;
+      height: 2em;
+      font-size: 2.5em;
+      background: none;
+      color: white;
+}
+
+h2 {
+   font-size: 4em;
+}
+
+
+.main_container {
+   margin: auto 10%;
+   text-align: center;
+   visibility: hidden;
+   margin-top: 2%;
+   background-color: rgba(5, 5, 5, 0.342);
+
+}
+
+h3 {
+   color: white;
+   font-size: 2.5em;
+}
+
+span {
+   text-align: center;
+   font-size: 1.5em;
+   color: white;
+   margin: auto 2%;
+}
