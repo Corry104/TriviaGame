@@ -2,9 +2,10 @@
 
 
 var correct = 0;
-var incorrect= 0;
-var unanswered= 0;
-var countDown= 10;
+var incorrect = 0;
+var unanswered = 0;
+var countDown = 10;
+var userAnswer;
 
 function decrement() {
     countDown--;
@@ -35,17 +36,10 @@ $("#submit").on("click", function() {
     $(".main_container").css("display", "none");
 
 });
-       
-// for(var i = 1; i <= 45; i++) {
-//   var radios = document.getElementsByName('group'+i);
-//   for(var j = 0; j < radios.length; j++) {
-//     var radio = radios[j];
-//     if(radio.value == "correct" && radio.checked) {
-//       correct++;
-//     }
-//   }
-//  }                   
-//     alert("Correct Responses: " + correct);
+
+for (var i = 1; i <= userAnswer.length; i++){
+    
+}
 
 
 
