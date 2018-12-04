@@ -4,7 +4,7 @@
 var correct = 0;
 var incorrect = 0;
 var unanswered = 0;
-var countDown = 10;
+var countDown = 5;
 var userAnswer="";
 
 function decrement() {
@@ -36,15 +36,7 @@ $("#submit").on("click", function() {
     $(".main_container").css("display", "none");
     $("#submit").css("visibility", "hidden");
 
-    if (!$("input:radio[name='Group1']:checked").val()) {
-        unanswered++;
-        $("#unAnswered").html("Unanswered: " + unanswered)
-    }
-    else {
-  
-    }
 });
-
 
 $(":radio[value=true]").on("click", function() {
     correct++;
@@ -57,6 +49,35 @@ $(":radio[value=false]").on("click", function() {
     $("#incorrectAnswer").html("Incorrect: " + incorrect)
    
 });
+
+if (!$("input:radio[name='Group1']:checked").val()) {
+    unanswered++;
+    $("#unAnswered").html("Unanswered: " + unanswered)
+}
+else {
+
+}
+if (!$("input:radio[name='Group2']:checked").val()) {
+    unanswered++;
+    $("#unAnswered").html("Unanswered: " + unanswered)
+}
+else {
+
+}
+if (!$("input:radio[name='Group3']:checked").val()) {
+    unanswered++;
+    $("#unAnswered").html("Unanswered: " + unanswered)
+}
+else {
+
+}
+if (!$("input:radio[name='Group4']:checked").val()) {
+    unanswered++;
+    $("#unAnswered").html("Unanswered: " + unanswered)
+}
+else {
+
+}
 
 
 
