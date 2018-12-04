@@ -5,7 +5,7 @@ var correct = 0;
 var incorrect = 0;
 var unanswered = 0;
 var countDown = 10;
-var userAnswer;
+var userAnswer="";
 
 function decrement() {
     countDown--;
@@ -34,12 +34,38 @@ $("#start").on("click", function() {
 $("#submit").on("click", function() {
     $("#finalPage").css("display", "unset");
     $(".main_container").css("display", "none");
+    $("#submit").css("visibility", "hidden");
 
+    if (!$("input:radio[name='Group1']:checked").val()) {
+        unanswered++;
+        $("#unAnswered").html("Unanswered: " + unanswered)
+    }
+    else {
+  
+    }
 });
 
-for (var i = 1; i <= userAnswer.length; i++){
+
+$(":radio[value=true]").on("click", function() {
+    correct++;
+    $("#correctAnswer").html("Correct: " + correct)
+   
+});
     
-}
+$(":radio[value=false]").on("click", function() {
+    incorrect++;
+    $("#incorrectAnswer").html("Incorrect: " + incorrect)
+   
+});
+
+
+
+     
+     
+  
+
+
+
 
 
 

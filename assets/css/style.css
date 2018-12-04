@@ -4,11 +4,10 @@
   
  * {
    position: relative;
-   overflow: auto;
  }
 
  body {
-   background-image: url("../images/TriviaBackground\ Image.png");
+   background-image: url("../images/rome_by_night.jpg");
    background-size: 100%;
  }
 
@@ -16,25 +15,24 @@
    text-align: center;
    background: none;
    color: white;
-   font-family: 'Romanesco', 'cursive';
+   font-family: 'Cormorant Upright', serif;
    height: 240px;
  }
 
  h1 {
-   font-size: 30px;
+   font-size: 80px;
  }
 
 #start {
    width: 4em;
-   height: 30px;
-   font-size: 30px;
+   font-size: 60px;
    background: none;
    color: white;
    border: none;
 }
 
 h2 {
-   font-size: 30px;
+   font-size: 60px;
 }
 
 
@@ -49,15 +47,15 @@ h2 {
 h3 {
    color: white;
    font-size: 2.5em;
-   font-family: 'Romanesco', 'cursive';
+   font-family: 'Cormorant Upright', serif;
 }
 
 span, p {
    text-align: center;
-   font-size: 2em;
+   font-size: 1.5em;
    color: white;
-   font-family: 'Romanesco', 'cursive';
-   margin: auto 2%;
+   font-family: 'Cormorant Upright', serif;
+   margin: auto 1%;
 }
 
 #submit {
@@ -66,7 +64,7 @@ span, p {
    font-size: 1.5em;
    background: none;
    color: white;
-   font-family: 'Romanesco', 'cursive';
+   font-family: 'Cormorant Upright', serif;
    margin: 2% 47%;
 }
 
