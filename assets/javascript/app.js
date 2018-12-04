@@ -4,7 +4,7 @@
 var correct = 0;
 var incorrect = 0;
 var unanswered = 0;
-var countDown = 5;
+var countDown = 31;
 var userAnswer="";
 
 function decrement() {
